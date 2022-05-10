@@ -20,7 +20,7 @@ public class master_class {
     {
         this.name = name;
     }
-    public string getName()
+    public string getNames()
     {
         return name;
     }

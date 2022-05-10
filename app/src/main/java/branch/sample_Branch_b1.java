@@ -3,11 +3,21 @@ package branch;
 public class sample_Branch_b1 {
     String name,id;
     float cgpa;
-    sample_Branch_b1(String s,String s1,float f)
-    {
-        this.name = s;
-        this.id = s1;
-        this.cgpa = f;
+    double income;
+
+    public sample_Branch_b1(String name, String id, float cgpa, double income) {
+        this.name = name;
+        this.id = id;
+        this.cgpa = cgpa;
+        this.income = income;
+    }
+
+    public double getIncome() {
+        return income;
+    }
+
+    public void setIncome(double income) {
+        this.income = income;
     }
 
     public String getName() {
