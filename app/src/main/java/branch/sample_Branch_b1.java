@@ -3,7 +3,26 @@ package branch;
 public class sample_Branch_b1 {
     String name,id;
     float cgpa;
-    sample_Branch_b1(String s,String s1,float f)
+
+    public int getNumber_of_branches() {
+        return number_of_branches;
+    }
+
+    public void setNumber_of_branches(int number_of_branches) {
+        this.number_of_branches = number_of_branches;
+    }
+
+    int number_of_branches;
+
+    public sample_Branch_b1(String name, String id, float cgpa, int number_of_branches) {
+        this.name = name;
+        this.id = id;
+        this.cgpa = cgpa;
+        this.number_of_branches = number_of_branches;
+    }
+
+
+    sample_Branch_b1(String s, String s1, float f)
     {
         this.name = s;
         this.id = s1;
