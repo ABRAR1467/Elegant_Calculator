@@ -18,6 +18,7 @@ public class sample_Branch_b1 {
 
     public void setIncome(double income) {
         this.income = income;
+
     }
 
     public String getName() {
