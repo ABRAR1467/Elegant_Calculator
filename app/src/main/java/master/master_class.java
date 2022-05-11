@@ -12,7 +12,7 @@ public class master_class {
     {
         return roll;
     }
-    punlic void setRoll(int roll)
+    public void setRoll(int roll)
     {
         this.roll = roll;
     }
